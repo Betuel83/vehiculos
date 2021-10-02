@@ -9,7 +9,7 @@
 
 
 - Base de datos:
-  Se encuentra en la carpeta BD del proyecto
+  Se encuentra en la carpeta BD del proyecto, los archivos a modificar son conexion.php y clases/conexion_abm.php
   
 - BaseDatos = "smgsys6_smg";
   Servidor = "localhost";
