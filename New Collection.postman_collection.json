@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "be3b7679-7fe1-4cf8-b5a1-7b64391caca1",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pruebas",
+			"item": [
+				{
+					"name": "Ver registros",
+					"request": {
+						"method": "VIEW",
+						"header": [],
+						"url": {
+							"raw": "https://smg-system.com/erp/inventario_vehiculos/consulta.php",
+							"protocol": "https",
+							"host": [
+								"smg-system",
+								"com"
+							],
+							"path": [
+								"erp",
+								"inventario_vehiculos",
+								"consulta.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Activar registros",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://smg-system.com/erp/inventario_vehiculos/activar.php?Id=1",
+							"protocol": "https",
+							"host": [
+								"smg-system",
+								"com"
+							],
+							"path": [
+								"erp",
+								"inventario_vehiculos",
+								"activar.php"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Desactivar registros",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "https://smg-system.com/erp/inventario_vehiculos/eliminar.php?Id=1",
+							"protocol": "https",
+							"host": [
+								"smg-system",
+								"com"
+							],
+							"path": [
+								"erp",
+								"inventario_vehiculos",
+								"eliminar.php"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Valida la sesion si esta activa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "correo",
+									"value": "jesus.betuel@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Xoops385070",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://smg-system.com/erp/inventario_vehiculos/valresultados.php",
+							"protocol": "https",
+							"host": [
+								"smg-system",
+								"com"
+							],
+							"path": [
+								"erp",
+								"inventario_vehiculos",
+								"valresultados.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultas en general",
+					"request": {
+						"method": "VIEW",
+						"header": [],
+						"url": {
+							"raw": "https://smg-system.com/erp/inventario_vehiculos/clases/cliente.class.php",
+							"protocol": "https",
+							"host": [
+								"smg-system",
+								"com"
+							],
+							"path": [
+								"erp",
+								"inventario_vehiculos",
+								"clases",
+								"cliente.class.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Iniciar sesion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "correo",
+									"value": "jesus.betuel@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Xoops385070",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://smg-system.com/erp/inventario_vehiculos/validacion.php",
+							"protocol": "https",
+							"host": [
+								"smg-system",
+								"com"
+							],
+							"path": [
+								"erp",
+								"inventario_vehiculos",
+								"validacion.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
