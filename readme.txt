@@ -10,3 +10,8 @@
 
 - Base de datos:
   Se encuentra en la carpeta BD del proyecto
+  
+- BaseDatos = "smgsys6_smg";
+  Servidor = "localhost";
+  Usuario = "smgsys6_smg";
+  Clave = "";
