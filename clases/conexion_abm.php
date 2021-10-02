@@ -9,7 +9,7 @@ class DBManager{
                 $this->BaseDatos = "smgsys6_smg";
                 $this->Servidor = "localhost";
                 $this->Usuario = "smgsys6_smg";
-                $this->Clave = ")MR8r[+60dY]";
+                $this->Clave = "";
         }
 
          function conectar() {
