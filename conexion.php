@@ -1,5 +1,5 @@
 <?php 
-$con = mysqli_connect('localhost', 'smgsys6_smg', ')MR8r[+60dY]', 'smgsys6_smg'); 
+$con = mysqli_connect('localhost', 'smgsys6_smg', '', 'smgsys6_smg'); 
 if (mysqli_connect_errno()) {
     echo "Fallo al conectar a MySQL: (" . mysqli_connect_error() . ") " . mysqli_connect_error();
     exit();
